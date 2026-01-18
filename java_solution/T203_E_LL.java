@@ -1,5 +1,3 @@
-package org.leetcode;
-
 public class T203_E_LL {
     public ListNode removeElements(ListNode head, int val) {
         ListNode prehead = new ListNode(-1);

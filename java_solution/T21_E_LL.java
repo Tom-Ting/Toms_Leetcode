@@ -1,37 +1,6 @@
-package org.leetcode;
-
 import org.junit.Test;
 
-class ListNode{
-    int val;
-    ListNode next;
-
-    ListNode(int val){
-        this.val = val;
-        this.next = null;
-    }
-
-    ListNode(int val,ListNode next){
-        this.val = val;
-        this.next = next;
-    }
-
-    ListNode(int[] vals){
-        if (vals == null || vals.length == 0){
-            return;
-        }
-
-        this.val = vals[0];
-        ListNode current = this;
-
-        for (int i = 1; i < vals.length; i++) {
-            current.next = new ListNode(vals[i]);
-            current = current.next;
-        }
-    }
-}
-
-public class T21_E_LinkedList {
+public class T21_E_LL {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         // 处理空值
         if (list1 == null){

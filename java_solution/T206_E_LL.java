@@ -1,5 +1,3 @@
-package org.leetcode;
-
 import java.util.Stack;
 
 public class T206_E_LL {

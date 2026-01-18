@@ -1,5 +1,3 @@
-package org.leetcode;
-
 import org.junit.Test;
 
 import java.util.Stack;

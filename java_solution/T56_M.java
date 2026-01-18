@@ -1,5 +1,3 @@
-package org.leetcode;
-
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -75,7 +73,7 @@ public class T56_M {
             return intervals;
         }
 
-        Arrays.sort(intervals, new Comparator<>() {
+        Arrays.sort(intervals, new Comparator<int[]>() {
             @Override
             public int compare(int[] interval1, int[] interval2) {
                 return interval1[0] - interval2[0];

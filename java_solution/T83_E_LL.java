@@ -1,8 +1,6 @@
-package org.leetcode;
-
 import org.junit.Test;
 
-public class T83_E_LinkedList {
+public class T83_E_LL {
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null){
             return head;

@@ -1,5 +1,3 @@
-package org.leetcode;
-
 public class T1290_E_LL {
     public int getDecimalValue(ListNode head) {
         if (head == null){

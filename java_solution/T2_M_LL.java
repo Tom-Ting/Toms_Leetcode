@@ -1,5 +1,3 @@
-package org.leetcode;
-
 public class T2_M_LL {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null){

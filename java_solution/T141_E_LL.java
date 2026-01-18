@@ -1,9 +1,7 @@
-package org.leetcode;
-
 import java.util.HashSet;
 import java.util.Set;
 
-public class T141_E_LinkedList {
+public class T141_E_LL {
     public boolean hasCycle(ListNode head) {
         if (head == null){
             return false;

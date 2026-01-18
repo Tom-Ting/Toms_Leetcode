@@ -1,5 +1,3 @@
-package org.leetcode;
-
 public class T876_E_LL {
     public ListNode middleNode(ListNode head) {
         ListNode RPoint = head;

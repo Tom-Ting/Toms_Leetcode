@@ -1,8 +1,6 @@
-package org.leetcode;
-
 import org.junit.Test;
 
-public class T25_H_LinkedList {
+public class T25_H_LL {
     public ListNode reverseKGroup(ListNode head, int k) {
         if (k == 1){
             return head;
