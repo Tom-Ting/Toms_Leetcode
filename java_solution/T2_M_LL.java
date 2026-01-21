@@ -1,3 +1,5 @@
+import org.junit.Test;
+
 public class T2_M_LL {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null){
@@ -34,6 +36,16 @@ public class T2_M_LL {
         }else {
             l1.val += flag;
             return preHead.next;
+        }
+    }
+
+    @Test
+    public void Test(){
+        ListNode l1 = new ListNode(new int[]{2,4,5});
+        ListNode l2 = new ListNode(new int[]{5,6,4});
+        ListNode a1 = addTwoNumbers(l1, l2);
+        for (ListNode i = a1; i != null; i = i.next){
+            System.out.print(i.val);
         }
     }
 }
